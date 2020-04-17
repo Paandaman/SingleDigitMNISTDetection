@@ -25,7 +25,7 @@ conda install --file requirements.txt
 python main.py
 ```
 
-# Keep track of training progress
+## Keep track of training progress
 ```
 cd SingleDigitMNISTDetection
 python -m tensorboard.main --logdir=.
