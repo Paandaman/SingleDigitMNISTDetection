@@ -4,5 +4,6 @@ Pillow
 pytorch
 pyyaml
 tensorboard
+tensorflow
 torchvision
 
