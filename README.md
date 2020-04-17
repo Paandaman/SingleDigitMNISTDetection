@@ -32,4 +32,15 @@ cd SingleDigitMNISTDetection
 python -m tensorboard.main --logdir=.
 ```
 
-Various parameters can be changed in the config.yaml file.
+### Results
+1 sample per digit, no unsupervised data used:
+```
+Average Accuracy over 5 runs: 45.25%
+Highest achieved accuracy : 51.9%
+```
+
+1 sample per digit with unsupervised data augmentation used:
+```
+Average Accuracy over 5 runs: 57.98%
+Highest achieved accuracy : 64.6%
+```
