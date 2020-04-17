@@ -1,0 +1,68 @@
+# 1 sample per digit, no unsupervised data used
+Average Accuracy over 5 runs: 45.25%
+
+# 1 sample per digit with unsupervised data augmentation used
+Average Accuracy over 5 runs: 57.98%
+
+Highest achieved accuracy : 64.6%
+
+Runs with unsupervised data augmentation used:
+Accuracy of 0 : 99.0 %
+Accuracy of 1 : 94.0 %
+Accuracy of 2 : 79.0 %
+Accuracy of 3 : 76.0 %
+Accuracy of 4 : 51.0 %
+Accuracy of 5 : 34.0 %
+Accuracy of 6 : 85.0 %
+Accuracy of 7 : 73.0 %
+Accuracy of 8 : 35.0 %
+Accuracy of 9 : 20.0 %
+Mean Accuracy: 64.6
+
+Accuracy of 0 : 94.0 %
+Accuracy of 1 : 36.0 %
+Accuracy of 2 : 83.0 %
+Accuracy of 3 : 60.0 %
+Accuracy of 4 : 59.0 %
+Accuracy of 5 : 8.0 %
+Accuracy of 6 : 88.0 %
+Accuracy of 7 : 66.0 %
+Accuracy of 8 : 25.0 %
+Accuracy of 9 : 20.0 %
+Mean Accuracy: 53.9
+
+Accuracy of 0 : 96.0 %
+Accuracy of 1 : 94.0 %
+Accuracy of 2 : 60.0 %
+Accuracy of 3 : 80.0 %
+Accuracy of 4 : 30.0 %
+Accuracy of 5 : 6.0 %
+Accuracy of 6 : 82.0 %
+Accuracy of 7 : 73.0 %
+Accuracy of 8 : 19.0 %
+Accuracy of 9 : 42.0 %
+Mean Accuracy: 58.2
+
+Accuracy of 0 : 99.0 %
+Accuracy of 1 : 97.0 %
+Accuracy of 2 : 77.0 %
+Accuracy of 3 : 19.0 %
+Accuracy of 4 : 52.0 %
+Accuracy of 5 : 46.0 %
+Accuracy of 6 : 76.0 %
+Accuracy of 7 : 56.0 %
+Accuracy of 8 : 3.0 %
+Accuracy of 9 : 32.0 %
+Mean Accuracy: 55.7
+
+Accuracy of 0 : 100.0 %
+Accuracy of 1 : 99.0 %
+Accuracy of 2 : 85.0 %
+Accuracy of 3 : 7.0 %
+Accuracy of 4 : 64.0 %
+Accuracy of 5 : 74.0 %
+Accuracy of 6 : 51.0 %
+Accuracy of 7 : 74.0 %
+Accuracy of 8 : 9.0 %
+Accuracy of 9 : 12.0 %
+Mean Accuracy: 57.5
