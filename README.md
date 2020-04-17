@@ -10,6 +10,7 @@ numpy
 Pillow
 pyyaml
 tensorboard
+tensorflow
 torch
 torchvision
 ```
