@@ -1,0 +1,164 @@
+# when using 100 of each digit during training
+Finished Training
+Accuracy of     0 : 93 %
+Accuracy of     1 : 98 %
+Accuracy of     2 : 95 %
+Accuracy of     3 : 85 %
+Accuracy of     4 : 91 %
+Accuracy of     5 : 90 %
+Accuracy of     6 : 94 %
+Accuracy of     7 : 88 %
+Accuracy of     8 : 87 %
+Accuracy of     9 : 97 %
+
+# when using 1 sample per digit
+take 1
+Finished Training
+Accuracy of     0 : 85 %
+Accuracy of     1 : 27 %
+Accuracy of     2 : 47 %
+Accuracy of     3 : 38 %
+Accuracy of     4 : 32 %
+Accuracy of     5 : 53 %
+Accuracy of     6 : 64 %
+Accuracy of     7 : 17 %
+Accuracy of     8 : 32 %
+Accuracy of     9 : 52 %
+take 2
+Finished Training
+Accuracy of     0 : 83 %
+Accuracy of     1 : 22 %
+Accuracy of     2 : 28 %
+Accuracy of     3 : 24 %
+Accuracy of     4 : 31 %
+Accuracy of     5 : 65 %
+Accuracy of     6 : 78 %
+Accuracy of     7 : 21 %
+Accuracy of     8 : 27 %
+Accuracy of     9 : 40 %
+take 3
+Finished Training
+Accuracy of     0 : 92 %
+Accuracy of     1 : 32 %
+Accuracy of     2 : 38 %
+Accuracy of     3 : 74 %
+Accuracy of     4 : 33 %
+Accuracy of     5 : 40 %
+Accuracy of     6 : 71 %
+Accuracy of     7 : 42 %
+Accuracy of     8 : 28 %
+Accuracy of     9 : 69 %
+take 4
+Finished Training
+Accuracy of     0 : 86 %
+Accuracy of     1 : 19 %
+Accuracy of     2 : 47 %
+Accuracy of     3 : 40 %
+Accuracy of     4 : 23 %
+Accuracy of     5 : 34 %
+Accuracy of     6 : 69 %
+Accuracy of     7 : 14 %
+Accuracy of     8 : 37 %
+Accuracy of     9 : 56 %
+
+# WITH DATA AUGm. lambda 0.1, lr 0.001
+Accuracy of 0 : 89.0 %
+Accuracy of 1 : 23.0 %
+Accuracy of 2 : 48.0 %
+Accuracy of 3 : 38.0 %
+Accuracy of 4 : 59.0 %
+Accuracy of 5 : 28.0 %
+Accuracy of 6 : 87.0 %
+Accuracy of 7 : 42.0 %
+Accuracy of 8 : 62.0 %
+Accuracy of 9 : 27.0 %
+Mean Accuracy: 50.3
+
+# dATA AUGM WITH INCREASED WIDTH
+[Epoch: 149] loss: 0.7670315504074097
+Finished Training
+Accuracy of 0 : 81.0 %
+Accuracy of 1 : 84.0 %
+Accuracy of 2 : 87.0 %
+Accuracy of 3 : 35.0 %
+Accuracy of 4 : 50.0 %
+Accuracy of 5 : 51.0 %
+Accuracy of 6 : 38.0 %
+Accuracy of 7 : 10.0 %
+Accuracy of 8 : 60.0 %
+Accuracy of 9 : 61.0 %
+Mean Accuracy: 55.7
+
+# lambd 3
+Finished Training
+Accuracy of 0 : 88.0 %
+Accuracy of 1 : 92.0 %
+Accuracy of 2 : 73.0 %
+Accuracy of 3 : 36.0 %
+Accuracy of 4 : 59.0 %
+Accuracy of 5 : 28.0 %
+Accuracy of 6 : 57.0 %
+Accuracy of 7 : 10.0 %
+Accuracy of 8 : 32.0 %
+Accuracy of 9 : 77.0 %
+Mean Accuracy: 55.2
+
+# lambd 10 , 100 epochs med m = 1
+Finished Training
+Accuracy of 0 : 68.0 %
+Accuracy of 1 : 96.0 %
+Accuracy of 2 : 85.0 %
+Accuracy of 3 : 8.0 %
+Accuracy of 4 : 46.0 %
+Accuracy of 5 : 63.0 %
+Accuracy of 6 : 80.0 %
+Accuracy of 7 : 8.0 %
+Accuracy of 8 : 30.0 %
+Accuracy of 9 : 79.0 %
+Mean Accuracy: 56.3
+
+# lambd 10 , 200 epochs
+Finished Training
+Accuracy of 0 : 88.0 %
+Accuracy of 1 : 85.0 %
+Accuracy of 2 : 94.0 %
+Accuracy of 3 : 33.0 %
+Accuracy of 4 : 53.0 %
+Accuracy of 5 : 32.0 %
+Accuracy of 6 : 87.0 %
+Accuracy of 7 : 35.0 %
+Accuracy of 8 : 13.0 %
+Accuracy of 9 : 72.0 %
+Mean Accuracy: 59.2
+
+# lamb 10 , 200 epochs w CUTOUT
+Finished Training
+Accuracy of 0 : 79.0 %
+Accuracy of 1 : 94.0 %
+Accuracy of 2 : 96.0 %
+Accuracy of 3 : 9.0 %
+Accuracy of 4 : 55.0 %
+Accuracy of 5 : 53.0 %
+Accuracy of 6 : 82.0 %
+Accuracy of 7 : 50.0 %
+Accuracy of 8 : 18.0 %
+Accuracy of 9 : 71.0 %
+Mean Accuracy: 60.7
+
+# lamb 20, 200 w cutout 
+Finished Training
+Accuracy of 0 : 98.0 %
+Accuracy of 1 : 95.0 %
+Accuracy of 2 : 89.0 %
+Accuracy of 3 : 23.0 %
+Accuracy of 4 : 73.0 %
+Accuracy of 5 : 38.0 %
+Accuracy of 6 : 29.0 %
+Accuracy of 7 : 59.0 %
+Accuracy of 8 : 24.0 %
+Accuracy of 9 : 73.0 %
+Mean Accuracy: 60.1
+
+
+
+## FINAL RESULTS FOR AVERAGING
