@@ -1,6 +1,8 @@
+markdown
 numpy
 Pillow
+pytorch
+pyyaml
 tensorboard
-torch
 torchvision
 

@@ -8,7 +8,8 @@ Trained using the approach described in the paper 'Unsupervised Data Augmentatio
 python3
 numpy
 Pillow
-tensorboardX
+pyyaml
+tensorboard
 torch
 torchvision
 ```
