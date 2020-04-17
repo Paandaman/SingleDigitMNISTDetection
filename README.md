@@ -20,12 +20,12 @@ cd SingleDigitMNISTDetection
 #Install required packages
 conda install --file requirements.txt
 ```
-## Train
+### Train
 ```
 python main.py
 ```
 
-## Keep track of training progress
+### Keep track of training progress
 ```
 cd SingleDigitMNISTDetection
 python -m tensorboard.main --logdir=.
