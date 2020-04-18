@@ -18,13 +18,6 @@ else:
     device = torch.device("cpu")
 
 
-def split_data(pool_idx):
-    np.random.seed()
-    labeled_idx = np.random.permutation(pool_idx)[:4000]
-    unlabeled_idx = np.setdiff1d(pool_idx, labeled_idx)
-    return labeled_idx, unlabeled_idx
-
-
 def supervised_batch(model, batch, eta):
     x, y = batch
     y_ = model(x)
@@ -67,7 +60,7 @@ def _kl_divergence_with_logits(p_logits, q_logits):
 
 
 def training_signal_annealing(pred, ground_truth, eta):
-    onehot = F.one_hot(ground_truth, num_classes=10).float()
+    onehot = F.one_hot(ground_truth, num_classes=pred.size(1)).float()
     correct_label_probs = torch.sum(pred*onehot, -1)
     smaller_than_threshold = torch.lt(correct_label_probs, eta).float()
     smaller_than_threshold.requires_grad = False

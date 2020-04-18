@@ -25,10 +25,10 @@ torch.manual_seed(137)
 writer = SummaryWriter(os.getcwd())
 
 
-def extract_classes(dataset, samples_per_class):
+def extract_classes(dataset, samples_per_class, classes):
     class_indices = {} 
     count = 0
-    nr_of_classes = 10
+    nr_of_classes = classes 
     for i in range(len(dataset)):
         _img_info, class_id = dataset.__getitem__(i)
         if class_id not in class_indices:    
@@ -54,7 +54,7 @@ def get_data_loaders(config):
 
     trainset = torchvision.datasets.MNIST(root='./data', train=True,
                                             download=True, transform=train_transform)
-    extract_class_idx = extract_classes(trainset, 1) 
+    extract_class_idx = extract_classes(trainset, config['samples_per_class'], config['classes']) 
     subsampler_train = torch.utils.data.SubsetRandomSampler(extract_class_idx)
     trainloader = torch.utils.data.DataLoader(trainset, batch_size=config['supervised_batch_size'],
                                             sampler=subsampler_train)
@@ -70,7 +70,7 @@ def get_data_loaders(config):
 
     testset = torchvision.datasets.MNIST(root='./data', train=False,
                                         download=True, transform=test_transform)
-    extract_class_idx = extract_classes(testset, 100) 
+    extract_class_idx = extract_classes(testset, 100, config['classes']) 
     subsampler_test = torch.utils.data.SubsetRandomSampler(extract_class_idx)
     testloader = torch.utils.data.DataLoader(testset, batch_size=10,
                                             sampler=subsampler_test)
